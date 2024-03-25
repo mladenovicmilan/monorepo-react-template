@@ -1,0 +1,2 @@
+// This is a placeholder file
+// It is created to ensure that the folder is created in the remote repository
