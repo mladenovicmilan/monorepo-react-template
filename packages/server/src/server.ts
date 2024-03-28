@@ -8,7 +8,7 @@ import corsConfig from './config/corsConfig';
 import rateLimit from 'express-rate-limit';
 
 const app: Express = express();
-const PORT: number = parseInt(process.env.PORT ?? '3000', 10);
+const PORT: number = parseInt(process.env.PORT ?? '8080', 10);
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100, // limit each IP to 100 requests per windowMs
